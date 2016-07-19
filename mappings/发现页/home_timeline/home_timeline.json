@@ -1,0 +1,30 @@
+{
+  "request" : {
+    "urlPath" : "/home_timeline",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "h": {
+        "code": 200,
+        "msg": "Success",
+        "time": 1468810620
+      },
+      "b": {
+        "data": [
+            {
+                "picUrl": "http://tp3.sinaimg.cn/1197161814/50/1290146312/1 ",
+                "liveName": "boshishigebao",
+                "hostNickname": "boshi",
+                "liveStatus": 0,
+                "audience": 996
+            }
+        ]
+      }
+    }
+  }
+}

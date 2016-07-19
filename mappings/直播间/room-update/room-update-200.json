@@ -1,0 +1,22 @@
+{
+  "request" : {
+    "urlPath" : "/room/update",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+            "roomId": 12345679000,
+            "backPic": "http://uxin.com/pic/8329291.jpg",
+            "backPicSmall": "http://uxin.com/pic/8329291_small.jpg",
+            "introduce": "一个人偷偷的看"
+        }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "request" : {
+    "urlPath" : "/room/queryById",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+            "roomId": 1009322,
+            "uid": 239321,
+            "title": "星座奥妙",
+            "price": 20.99,
+            "liveStartTime": 1469642553116,
+            "actualTime": 1469642653116,
+            "liveEndTime": 1469645653116,
+            "status": 1,
+            "backPic": "http://uxin.com/pic/8329291.jpg",
+            "backPicSmall": "http://uxin.com/pic/8329291_small.jpg",
+            "introduce": "这个一个非常不错的直播",
+            "payNumber": 234,
+            "watchNumber": 0,
+            "diamonds": 0,
+            "costTime": "1小时26分钟"
+        }
+    }
+  }
+}

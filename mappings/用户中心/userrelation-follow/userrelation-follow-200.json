@@ -1,0 +1,18 @@
+{
+  "request" : {
+    "urlPath" : "/userrelation/follow",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody": {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+        }
+    }
+  }
+}

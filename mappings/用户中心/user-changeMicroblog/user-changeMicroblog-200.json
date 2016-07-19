@@ -1,0 +1,24 @@
+{
+  "request" : {
+    "urlPath" : "/user/changeMicroblog",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+            "accessToken": "abcdefg",
+            "id": 1234,
+            "name": "二大爷",
+            "description": "胆大心细脸皮厚",
+            "profileImageUrl": "a.jpg",
+            "gender": "m"
+        }
+    }
+  }
+}

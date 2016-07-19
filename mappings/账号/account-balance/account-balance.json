@@ -1,0 +1,23 @@
+{
+  "request" : {
+    "urlPath" : "/account/balance",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "h": {
+        "code": 200,
+        "msg": "Success",
+        "time": 1468810620
+      },
+      "b": {
+        "gold" : 520,
+        "diamond" : 521
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "request" : {
+    "urlPath" : "/goods/list",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+            "id": 1234567,
+            "typeId": 1,
+            "name": "玫瑰999",
+            "price": 9.99,
+            "discount": 6.66,
+            "discountDesc": "清仓大甩卖，赔本赚吆喝",
+            "golds": 100,
+            "addGolds": 100,
+            "addGoldsDesc": "不是白给的",
+            "pic": "http://uxin.com/pic/eiei103221223rjf.jpg",
+            "remark": "嘻嘻嘻"
+        }
+    }
+  }
+}

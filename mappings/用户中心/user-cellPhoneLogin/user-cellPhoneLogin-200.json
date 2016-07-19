@@ -1,0 +1,29 @@
+{
+  "request" : {
+    "urlPath" : "/user/cellPhoneLogin",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+          "id": 1234,
+          "outerId": "5678",
+          "nickname": "二大爷",
+          "headPortraitUrl": "a.jpg",
+          "gender": 1,
+          "introduction": "胆大心细脸皮厚",
+          "status": 0,
+          "isNicknameSet": 1,
+          "cellphone": "13400000000",
+          "concernNumber": 10,
+          "followerNumber": 10
+      }
+    }
+  }
+}

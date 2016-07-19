@@ -1,0 +1,25 @@
+{
+  "request" : {
+    "urlPath" : "/wallet/walletinfo",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "h": {
+        "code": 200,
+        "msg": "Success",
+        "time": 1468810620
+      },
+      "b": {
+        "Id" : 123456,
+        "uid" : 223456,
+        "alipayAccount" : "abc_alipay_test",
+        "isExistPayPassword" : 0
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "urlPath" : "/wallet/add",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "h": {
+        "code": 200,
+        "msg": "Success",
+        "time": 1468810620
+      },
+      "b": {
+      }
+    }
+  }
+}

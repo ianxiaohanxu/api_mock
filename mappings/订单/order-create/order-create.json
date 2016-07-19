@@ -1,0 +1,28 @@
+{
+  "request" : {
+    "urlPath" : "/order/create",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "h": {
+        "code": 200,
+        "msg": "Success",
+        "time": 1468810620
+      },
+      "b": {
+        "payStatus" : "21005",
+        "url" : "https://mapi.alipay.com/gateway.do",
+        "payParams" : {
+          "_input_charset": "utf-8",
+          "service": "mobile.zb",
+          "partner": "Constant.ALI_ACCT_ID"
+        }
+      }
+    }
+  }
+}

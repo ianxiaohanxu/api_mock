@@ -1,0 +1,40 @@
+{
+  "request" : {
+    "urlPath" : "/account/detail",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "h": {
+        "code": 200,
+        "msg": "Success",
+        "time": 1468810620
+      },
+      "b": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "dataTotal": 194,
+        "pageTotal": 20,
+        "cursor": 1430112922701,
+        "data": [
+            {
+                "transNo": 12232333,
+                "gold": 9,
+                "goldBalance": 122,
+                "diamond": "0",
+                "diamondBalance": "2",
+                "read": false,
+                "transType": "3",
+                "transTypeDesc": "支付宝充值",
+                "remark": "提现xx",
+                "createTime" : "2014-01-01 00:00:00"
+            }
+        ]
+      }
+    }
+  }
+}

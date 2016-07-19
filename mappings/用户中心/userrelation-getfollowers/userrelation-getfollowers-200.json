@@ -1,0 +1,31 @@
+{
+  "request" : {
+    "urlPath" : "/userrelation/getfollowers",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+          "pageNo": 1,
+          "pageSize": 20,
+          "dataTotal": 194,
+          "pageTotal": 20,
+          "cursor": 14,
+          "data": [
+              {
+                  "id": 123456,
+                  "nickname": "烈焰红唇",
+                  "pic": "http://my_home_page/secret.png",
+                  "description": "你懂得"
+              }
+          ]
+      }
+    }
+  }
+}

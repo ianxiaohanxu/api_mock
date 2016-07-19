@@ -1,0 +1,28 @@
+{
+  "request" : {
+    "urlPath" : "/goods/create",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+            "id": 1234567,
+            "typeId": 1,
+            "name": "玫瑰999",
+            "price": 9.99,
+            "golds": 100,
+            "createTime": "2016-07-11 20:43:12", 
+            "updateTime": "2016-07-11 20:43:12",
+            "pic": "http://uxin.com/pic/eiei103221223rjf.jpg",
+            "status": 1,
+            "remark": "呵呵呵"
+        }
+    }
+  }
+}

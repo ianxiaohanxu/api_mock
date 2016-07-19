@@ -1,0 +1,59 @@
+{
+  "request" : {
+    "urlPath" : "/room/liveList",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+        "h": {
+          "code" : 200,
+          "msg" : "Success",
+          "time" : "2016-07-11 20:37:12"
+        },
+        "b": {
+            "pageNo": 1,
+            "pageSize": 20,
+            "dataTotal": 194,
+            "pageTotal": 20,
+            "cursor": 14,
+            "data": [
+                {
+                    "roomId": 12345677,
+                    "uid": 239321,
+                    "title": "准备好手纸，至少5卷",
+                    "price": 22.22,
+                    "liveStartTime": 1469642553116,
+                    "actualTime": 1469642653116,
+                    "liveEndTime": 1469645653116,
+                    "status": 1,
+                    "backPic": "http://uxin.com/pic/8329291.jpg",
+                    "backPicSmall": "http://uxin.com/pic/8329291_small.jpg",
+                    "introduce": "这个一个非常不错的直播",
+                    "payNumber": 234,
+                    "watchNumber": 0,
+                    "diamonds": 0,
+                    "costTime": "1小时26分钟"
+                }, 
+                {
+                    "roomId": 34345677,
+                    "uid": 549321,
+                    "title": "手串",
+                    "price": 22.22,
+                    "liveStartTime": 1469742553116,
+                    "actualTime": 1469742653116,
+                    "liveEndTime": 1469745653116,
+                    "status": 1,
+                    "backPic": "http://uxin.com/pic/8329291.jpg",
+                    "backPicSmall": "http://uxin.com/pic/8329291_small.jpg",
+                    "introduce": "这个一个非常不错的直播",
+                    "payNumber": 234,
+                    "watchNumber": 0,
+                    "diamonds": 0,
+                    "costTime": "1小时26分钟"
+                }
+            ]
+        }
+    }
+  }
+}
